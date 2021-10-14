@@ -1,0 +1,31 @@
+GET http://localhost:3000/users
+
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name":"Nihal",
+    "email":"nihal123@gmail.com",
+    "mobile":"8210623493",
+    "password":"password123"
+    
+}
+
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "name":"Nihal",
+    "password":"password123"
+}
+###
+
+GET http://localhost:3000/infos/1
+
+
